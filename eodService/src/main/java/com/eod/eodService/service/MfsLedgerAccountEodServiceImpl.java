@@ -74,6 +74,7 @@ public class MfsLedgerAccountEodServiceImpl implements MfsLedgerAccountEodServic
 
     }
 
+
     @Override
     public List<IndividualCalculatedBalanceData> individualSystemAccountEOD() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd", Locale.ENGLISH);
